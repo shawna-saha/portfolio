@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Other head elements (title, meta, etc.) -->
+
+    <style>
+/* Style the skills section container */
+.skills {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+}
+
+/* Style the section title */
+.section-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Style the skills container */
+.skills__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+/* Style the skills box */
+.skills__box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the skills subtitle */
+.skills__subtitle {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Style the skills names */
+.skills__name {
+  display: block;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+/* Style the skills image */
+.skills__img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+    </style>
+</head>
+<body>
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container bd-grid">
+            <div class="skills__box">
+                <h3 class="skills__subtitle">Front End</h3>
+                <span class="skills__name">HTML5</span>
+                <span class="skills__name">CSS3</span>
+                <!-- ... (your skills content) ... -->
+            </div>
+
+            <div class="skills__img">
+                <img src="assets/img/skill.jpg" alt="">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
